@@ -1,0 +1,16 @@
+{
+  "name": "attendance-bot",
+  "version": "1.0.0",
+  "description": "LINE出退勤管理Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@line/bot-sdk": "^7.6.0"
+  }
+}
